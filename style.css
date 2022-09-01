@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+
+    background: #9BBB26;
+
+}
+
+body::before {
+    content: '';
+    background-size: cover;
+  background-image: url(https://i.pinimg.com/originals/88/62/a1/8862a12767e7e0475eb138a4cbddf4e6.png);
+    background-repeat: no-repeat;
+  width: 100%;
+    height: 436px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 78px;
+    color: yellow;
+    text-shadow: 5px 5px rgb(0, 0, 0, 0.6);
+
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+header li {
+    list-style: none;
+    font-family: 'Staatliches', cursive;
+    color: yellow;
+    font-size: 22px;
+    text-shadow: 3px 3px rgb(0, 0, 0, 0.6);
+
+}
+
+
+
+header li:hover {
+    cursor: pointer;
+}
+
+.page {
+    width: 750px;
+    margin: 0 auto;
+
+}
+.car img{
+    border: none;
+    width: 40px;
+display: flex;
+flex-direction: column;
+justify-content: end;
+position: absolute;
+right: 22%;
+top: 10px;
+transition: all 0.3s ease;
+
+
+}
+
+.conteiner {
+    background: #fafafc;
+    min-height: 300px;
+    margin-top: 100px;
+    border-radius: 8px;
+    padding: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+
+}
+
+.box {
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 10px;
+
+
+}
+
+.box:hover {
+    box-shadow: 0px 2px rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.box h2 {
+    font-family: 'Staatliches', cursive;
+    color: #535971;
+    font-size: 18px;
+}
+
+.box span {
+    font-family: 'Staatliches', cursive;
+    color: #535971;
+}
+
+.box img {
+    height: 150px;
+}
+
+.box button {
+    border: none;
+    background: green;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.box button:hover {
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 22%;
+    bottom: 10px;
+
+}
+
+.whatsapp img {
+    width: 50px;
+
+}
+.whatsapp:hover {
+    cursor: pointer;
+}
+
+
+.list{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 90px;
+  }
+  .list a {
+    color:#fff;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+  }
+  i {
+    color: #fff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    padding: 10px;
+  }
+  li:hover .fa-github {
+    transform: translate3d(0, -10px, 20px);
+    color: gray;
+  }
+  li:hover .fa-linkedin {
+    transform: translate3d(0, -10px, 20px);
+    color: #077099;
+  }
+  li:hover .fa-instagram {
+    transform: translate3d(0, -10px, 20px);
+    color: #b71787;
+  }
+  footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 20px;
+   color: #fff;
+   font-family: 'Staatliches', cursive;
+  
+  }
+  .car :hover {
+    transform: translate3d(0, -10px, 20px);
+    color: #b71787;
+  }
